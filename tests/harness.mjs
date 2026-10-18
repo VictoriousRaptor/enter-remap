@@ -1,4 +1,4 @@
-// Behavioral test for enter-remap/plugin.js — the REAL file, imported as-is.
+// Behavioral test for plugin.js — the REAL file, imported as-is.
 // jsdom provides the DOM; a "core mimic" listener on window (bubble) replays
 // composer/index.tsx handleEditorKeyDown's Enter branches:
 //   (meta||ctrl) && !shift  → queue (composer.queue)
@@ -71,7 +71,7 @@ let docCapture = [];
 const docSpy = e => docCapture.push(e);
 let docSpyAttached = false;
 
-const plugin = (await import('../enter-remap/plugin.js')).default;
+const plugin = (await import('../plugin.js')).default;
 
 if (plugin.id !== 'enter-remap') throw new Error(`unexpected id: ${plugin.id}`);
 
