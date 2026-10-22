@@ -1,6 +1,8 @@
-# enter-remap
+# hermes-desktop-plugin-enter-remap
 
 Hermes Desktop 输入框 Enter 键位轮换插件 / Rotate the composer's Enter keys in Hermes Desktop.
+
+插件 id 仍是 `enter-remap`（改名只动仓库名，不动 id，已装实例不受影响）。/ The plugin id stays `enter-remap` — only the repository was renamed, so existing installs keep working.
 
 把三个键轮换一位 / Rotate the three keys by one:
 
@@ -17,12 +19,12 @@ Hermes Desktop 输入框 Enter 键位轮换插件 / Rotate the composer's Enter 
 Hermes Desktop → **Settings → Plugins** → **Install from Git**，粘贴本仓库地址 / paste this repository URL:
 
 ```
-https://github.com/VictoriousRaptor/enter-remap
+https://github.com/VictoriousRaptor/hermes-desktop-plugin-enter-remap
 ```
 
 几秒内自动加载。/ It loads within seconds.
 
-手动安装（备选）/ Manual (alternative): 打开插件文件夹，把本仓库放进去，文件夹名保持 `enter-remap`。/ Reveal the plugins folder and drop this repository in, keeping the folder name `enter-remap`.
+手动安装（备选）/ Manual (alternative): 打开插件文件夹，把本仓库放进去，文件夹名保持 `hermes-desktop-plugin-enter-remap`。/ Reveal the plugins folder and drop this repository in, keeping the folder name `hermes-desktop-plugin-enter-remap`.
 
 插件装在**运行桌面 App 的这台机器**上，与远程网关无关。/ The plugin lives on the machine running the desktop app, regardless of where the gateway runs.
 
